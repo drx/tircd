@@ -1,0 +1,3 @@
+-record(client, {nick, pid, user}).
+-record(channel_user, {channel, client}).
+-record(channel_modes, {channel, modes=dict:new()}).
